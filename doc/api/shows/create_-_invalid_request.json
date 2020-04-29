@@ -1,0 +1,67 @@
+{
+  "resource": "Shows",
+  "resource_explanation": "Shows resource",
+  "http_method": "POST",
+  "route": "/shows",
+  "description": "Create - Invalid request",
+  "explanation": null,
+  "parameters": [
+    {
+      "scope": "show",
+      "with_example": true,
+      "required": true,
+      "name": "title",
+      "description": "Show title"
+    },
+    {
+      "scope": "show",
+      "with_example": true,
+      "required": true,
+      "name": "start_date",
+      "description": "Show start date, YYYY-MM-DD"
+    },
+    {
+      "scope": "show",
+      "with_example": true,
+      "required": true,
+      "name": "end_date",
+      "description": "Show end date, YYYY-MM-DD"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/shows",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 400,
+      "response_status_text": "Bad Request",
+      "response_body": "{\n  \"errors\": \"bad request\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "bcd17a7b-b4c9-4715-973f-cf9a7251dc46",
+        "X-Runtime": "0.002017",
+        "Content-Length": "24"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

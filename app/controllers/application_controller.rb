@@ -1,8 +1,12 @@
 class ApplicationController < ActionController::API
   rescue_from ActiveRecord::RecordNotFound, with: :not_found
 
+  rescue_from ActionController::ParameterMissing do
+    render json: { errors: "bad request" }, status: 400
+  end
+
   def not_found
-    render json: { errors: :not_found }, status: 404
+    render json: { errors: "not found" }, status: 404
   end
 
   private

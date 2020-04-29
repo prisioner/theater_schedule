@@ -1,0 +1,48 @@
+{
+  "resource": "Shows",
+  "resource_explanation": "Shows resource",
+  "http_method": "DELETE",
+  "route": "/shows/:id",
+  "description": "Deleting a show",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/shows/602",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"success\": \"ok\"\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"5689f447d0d662dad3ede63a83806739\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "7b73630b-db7b-4884-87b8-c0e060a8bf6f",
+        "X-Runtime": "0.005616",
+        "Content-Length": "16"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

@@ -8,6 +8,8 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'active_model_serializers', '~> 0.10.0'
 
+gem 'raddocs'
+
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
@@ -15,6 +17,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails', '~> 4.0.0'
   gem 'factory_bot_rails'
+  gem 'rspec_api_documentation'
 end
 
 group :development do

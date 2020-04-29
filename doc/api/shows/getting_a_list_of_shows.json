@@ -1,0 +1,48 @@
+{
+  "resource": "Shows",
+  "resource_explanation": "Shows resource",
+  "http_method": "GET",
+  "route": "/shows",
+  "description": "Getting a list of shows",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/shows",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 597,\n    \"title\": \"Show #1\",\n    \"start_date\": \"2020-05-01\",\n    \"end_date\": \"2020-05-02\"\n  },\n  {\n    \"id\": 598,\n    \"title\": \"Show #2\",\n    \"start_date\": \"2020-05-03\",\n    \"end_date\": \"2020-05-04\"\n  }\n]",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"25138c820ad6ff4897aadcc37ec8b054\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "d81f68dc-31de-4017-bee5-2d067cad2db5",
+        "X-Runtime": "0.012908",
+        "Content-Length": "159"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

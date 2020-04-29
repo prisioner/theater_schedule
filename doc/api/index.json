@@ -1,0 +1,52 @@
+{
+  "resources": [
+    {
+      "name": "Shows",
+      "explanation": "Shows resource",
+      "examples": [
+        {
+          "description": "Create - Invalid params",
+          "link": "shows/create_-_invalid_params.json",
+          "groups": "all",
+          "route": "/shows",
+          "method": "post"
+        },
+        {
+          "description": "Create - Invalid request",
+          "link": "shows/create_-_invalid_request.json",
+          "groups": "all",
+          "route": "/shows",
+          "method": "post"
+        },
+        {
+          "description": "Create a show",
+          "link": "shows/create_a_show.json",
+          "groups": "all",
+          "route": "/shows",
+          "method": "post"
+        },
+        {
+          "description": "Delete - Invalid `id` request",
+          "link": "shows/delete_-_invalid_`id`_request.json",
+          "groups": "all",
+          "route": "/shows/:id",
+          "method": "delete"
+        },
+        {
+          "description": "Deleting a show",
+          "link": "shows/deleting_a_show.json",
+          "groups": "all",
+          "route": "/shows/:id",
+          "method": "delete"
+        },
+        {
+          "description": "Getting a list of shows",
+          "link": "shows/getting_a_list_of_shows.json",
+          "groups": "all",
+          "route": "/shows",
+          "method": "get"
+        }
+      ]
+    }
+  ]
+}
