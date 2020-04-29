@@ -18,14 +18,14 @@
       "with_example": true,
       "required": true,
       "name": "start_date",
-      "description": "Show start date, YYYY-MM-DD"
+      "description": "Show start date, DD-MM-YYYY"
     },
     {
       "scope": "show",
       "with_example": true,
       "required": true,
       "name": "end_date",
-      "description": "Show end date, YYYY-MM-DD"
+      "description": "Show end date, DD-MM-YYYY"
     }
   ],
   "response_fields": [
@@ -35,7 +35,7 @@
     {
       "request_method": "POST",
       "request_path": "/shows",
-      "request_body": "{\"show\":{\"title\":\"Le nozze di Figaro ossia la folle giornata\",\"start_date\":\"2020-09-01\",\"end_date\":\"2020-09-30\"}}",
+      "request_body": "{\"show\":{\"title\":\"Le nozze di Figaro ossia la folle giornata\",\"start_date\":\"01-09-2020\",\"end_date\":\"30-09-2020\"}}",
       "request_headers": {
         "Content-Type": "application/json",
         "Host": "example.org",
@@ -46,7 +46,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 609,\n  \"title\": \"Le nozze di Figaro ossia la folle giornata\",\n  \"start_date\": \"2020-09-01\",\n  \"end_date\": \"2020-09-30\"\n}",
+      "response_body": "{\n  \"id\": 628,\n  \"title\": \"Le nozze di Figaro ossia la folle giornata\",\n  \"start_date\": \"01-09-2020\",\n  \"end_date\": \"30-09-2020\"\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
@@ -55,10 +55,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"79f7681bf9e9dfc869581aeb484ed762\"",
+        "ETag": "W/\"fe9cf8ef72f2411e86b961b91808704f\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "a02f48eb-9d35-4a21-8bca-fa74dc8614cb",
-        "X-Runtime": "0.005058",
+        "X-Request-Id": "58d0e2a9-7bd9-456c-ac6f-ffdcf0efb8b6",
+        "X-Runtime": "0.004561",
         "Content-Length": "113"
       },
       "response_content_type": "application/json; charset=utf-8",

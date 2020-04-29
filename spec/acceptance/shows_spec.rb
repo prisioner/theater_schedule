@@ -44,22 +44,22 @@ resource "Shows" do
   post "/shows", type: :json do
     with_options scope: :show, with_example: true do
       parameter :title, "Show title", required: true
-      parameter :start_date, "Show start date, YYYY-MM-DD", required: true
-      parameter :end_date, "Show end date, YYYY-MM-DD", required: true
+      parameter :start_date, "Show start date, DD-MM-YYYY", required: true
+      parameter :end_date, "Show end date, DD-MM-YYYY", required: true
     end
 
     context "200" do
       let(:title) { "Le nozze di Figaro ossia la folle giornata" }
-      let(:start_date) { "2020-09-01" }
-      let(:end_date) { "2020-09-30" }
+      let(:start_date) { "01-09-2020" }
+      let(:end_date) { "30-09-2020" }
 
       let(:raw_post) { params.to_json }
 
       let(:expected_response) do
         {
           title: "Le nozze di Figaro ossia la folle giornata",
-          start_date: "2020-09-01",
-          end_date: "2020-09-30",
+          start_date: "01-09-2020",
+          end_date: "30-09-2020",
         }
       end
 

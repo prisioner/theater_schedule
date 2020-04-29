@@ -26,7 +26,7 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "[\n  {\n    \"id\": 597,\n    \"title\": \"Show #1\",\n    \"start_date\": \"2020-05-01\",\n    \"end_date\": \"2020-05-02\"\n  },\n  {\n    \"id\": 598,\n    \"title\": \"Show #2\",\n    \"start_date\": \"2020-05-03\",\n    \"end_date\": \"2020-05-04\"\n  }\n]",
+      "response_body": "[\n  {\n    \"id\": 616,\n    \"title\": \"Show #1\",\n    \"start_date\": \"01-05-2020\",\n    \"end_date\": \"02-05-2020\"\n  },\n  {\n    \"id\": 617,\n    \"title\": \"Show #2\",\n    \"start_date\": \"03-05-2020\",\n    \"end_date\": \"04-05-2020\"\n  }\n]",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
@@ -35,10 +35,10 @@
         "X-Permitted-Cross-Domain-Policies": "none",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"25138c820ad6ff4897aadcc37ec8b054\"",
+        "ETag": "W/\"f904f3cb811f474de0ead335e6791e06\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "d81f68dc-31de-4017-bee5-2d067cad2db5",
-        "X-Runtime": "0.012908",
+        "X-Request-Id": "0826a0ce-d5ef-48a6-aa2c-deac0bb2543a",
+        "X-Runtime": "0.012934",
         "Content-Length": "159"
       },
       "response_content_type": "application/json; charset=utf-8",

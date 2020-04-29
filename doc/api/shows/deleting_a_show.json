@@ -14,7 +14,7 @@
   "requests": [
     {
       "request_method": "DELETE",
-      "request_path": "/shows/602",
+      "request_path": "/shows/621",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/json",
@@ -37,8 +37,8 @@
         "Content-Type": "application/json; charset=utf-8",
         "ETag": "W/\"5689f447d0d662dad3ede63a83806739\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "7b73630b-db7b-4884-87b8-c0e060a8bf6f",
-        "X-Runtime": "0.005616",
+        "X-Request-Id": "7d4e9df5-dcc6-44f8-997b-5bc74392da38",
+        "X-Runtime": "0.005005",
         "Content-Length": "16"
       },
       "response_content_type": "application/json; charset=utf-8",

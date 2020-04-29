@@ -18,14 +18,14 @@
       "with_example": true,
       "required": true,
       "name": "start_date",
-      "description": "Show start date, YYYY-MM-DD"
+      "description": "Show start date, DD-MM-YYYY"
     },
     {
       "scope": "show",
       "with_example": true,
       "required": true,
       "name": "end_date",
-      "description": "Show end date, YYYY-MM-DD"
+      "description": "Show end date, DD-MM-YYYY"
     }
   ],
   "response_fields": [
@@ -56,8 +56,8 @@
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "bcd17a7b-b4c9-4715-973f-cf9a7251dc46",
-        "X-Runtime": "0.002017",
+        "X-Request-Id": "a3dfed2a-4388-48c8-aa3f-fbfb383bd067",
+        "X-Runtime": "0.002226",
         "Content-Length": "24"
       },
       "response_content_type": "application/json; charset=utf-8",
